@@ -1,8 +1,30 @@
 aid: hyperpad
 name: Hyperpad
-description: Hyperpad is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hyperpad (hyperPad) is a no-code, visual game development platform for iPad,
+  often described as "HyperCard for iPad." Founded in 2013 and backed by Y
+  Combinator (Summer 2014), the London, Ontario company lets non-programmers
+  build media-rich 2D games and interactive apps using a drag-and-drop,
+  node-based behavior system with a built-in physics engine, particle effects,
+  animation and audio tools, and a bundled asset library, then publish them to
+  the Apple App Store as native apps while keeping 100% of royalties. Products
+  include the paid hyperPad app, a free hyperPad Starter edition, and hyperPad
+  Hub, a community arcade for playing games made with the platform. hyperPad is
+  a consumer-facing creation tool and does not currently publish a public web
+  API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/hyperpad/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hyperpad.com/assets/images/hyperPad_logo_light.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- No-Code
+- Game Development
+- iPad
+- Visual Programming
+- App Store
+- Education
+- Developer Tools
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/hyperpad-domain-security.yml
+- type: Website
+  url: https://www.hyperpad.com
+- type: Blog
+  url: https://www.hyperpad.com/blog
+- type: Support
+  url: https://www.hyperpad.com/forum
+- type: Pricing
+  url: https://www.hyperpad.com/app
+- type: TermsOfService
+  url: https://www.hyperpad.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.hyperpad.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
